@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color:white;
+
+}
+.logo{
+    font-size: 10px;
+    font-weight: bold;
+    margin: -10px;
+}
+#dart{
+    height: 60px;
+}
+/*lieu{
+gap: 10px;
+}*/
+.connexion{
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.inscription{
+    padding: 15px 25px;
+    border-radius: 25px ;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 35px;
+}
+section h2{
+    font-size: 30px;
+}
+.chat {
+    background-color: whitesmoke;
+    padding: 35px 10px;
+    height: 80px;
+    width: 80vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.chat input{
+    outline: none;
+    height: auto;
+    width: 100%;
+    border: none;
+    background: none;
+}
+.chat-button{
+    display: flex;
+    /* padding: 6vh 10px;  */
+    align-items: center;
+
+}
+.button1{
+    border-radius: 25px;
+    border: 1px solid #cfcfcf;
+    padding: 5px;
+}
+ .button2{
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid #cfcfcf;
+    color: white; 
+    background-color: #898887;
+
+}
+.chat .button2{
+    margin-left: 50vh;
+    
+}
+.suggestion{
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: 1px solid #dfdada;
+}
+.suggestion:hover{
+    background-color: #898887;
+    color: white;
+}
+.suggestions{
+    padding: 25px 10px;
+
+}
+.suggestions .suggestion .fa-solid{
+    color: #2f8ce3;
+}
+.suggestions .suggestion .fa-regular{
+    color: orange;
+}
+i{
+    padding-right: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: black;
+}
